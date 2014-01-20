@@ -1,11 +1,5 @@
 package diamondgunrevived.client.renderer.entity;
 
-/**
- * 
- * This class will eventually be replaced with an actual rendering class for the bullet 
- * 
- */
-
 import net.minecraft.client.renderer.Tessellator;
 import net.minecraft.client.renderer.entity.Render;
 import net.minecraft.entity.Entity;
@@ -18,6 +12,13 @@ import org.lwjgl.opengl.GL12;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import diamondgunrevived.entities.EntityBullet;
+
+/**
+ * 
+ * This class will eventually be replaced with an actual rendering class for the bullet 
+ * 
+ */
+
 
 @SideOnly(Side.CLIENT)
 public class RendeBullet extends Render

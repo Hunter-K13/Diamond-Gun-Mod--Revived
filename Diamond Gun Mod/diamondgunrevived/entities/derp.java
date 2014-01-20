@@ -16,6 +16,13 @@ import net.minecraft.util.MathHelper;
 import net.minecraft.util.MovingObjectPosition;
 import net.minecraft.util.Vec3;
 
+/**
+ * 
+ * This calss contains a screwed-up version of the bullet's onUpdate method.  I kept it because... 
+ * 
+ */
+
+
 public class derp {
 	/*@Override
     public void onUpdate()

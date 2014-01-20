@@ -15,6 +15,12 @@ import net.minecraft.util.MovingObjectPosition;
 import net.minecraft.util.Vec3;
 import net.minecraft.world.World;
 
+/**
+ * 
+ * This class is obselete and will eventually be removed
+ * 
+ */
+
 public class Entity50Cal extends Entity implements EntityShot {
 
 	private int xTile;
